@@ -1,0 +1,22 @@
+{
+  "name": "joshua-chew-jian-xiang-s-personal-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Joshua Chew Jian Xiang's Personal Website",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^3.11.0",
+    "gatsby-plugin-gatsby-cloud": "^2.11.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}

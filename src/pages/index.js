@@ -7,8 +7,8 @@ const IndexPage = () => {
     <Layout pageTitle="Home Page">
       <p>NUS Year 3 Computer Science student, Minor in Statistics, University Scholars Programme</p>
       <StaticImage
-        alt="A software engineer hard at work."
-        src="https://thumbs.dreamstime.com/b/portrait-his-nice-attractive-focused-brunette-guy-creating-script-coding-java-html-mysql-database-using-languages-software-161965647.jpg"
+        alt="A black-and-white photo of Joshua strumming a guitar and chilling."
+        src="../images/joshua-guitar.jpg"
       />
     </Layout>
   )

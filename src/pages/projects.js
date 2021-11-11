@@ -52,9 +52,15 @@ const ProjectPage = () => {
               target="_blank">
               Repo
             </Button>
+            <Button
+              href="https://github.com/youyingfeng/recursivesandwich/releases/tag/1.0"
+              variant="outline-dark"
+              target="_blank">
+              Download
+            </Button>
           </ProjectItem>
         </Col>
-
+      
         <Col className="m-3">
           <ProjectItem project={sudokuSolver}>
             <Button
@@ -63,9 +69,16 @@ const ProjectPage = () => {
               target="_blank">
               Repo
             </Button>
+            <Button
+              className="mx-2"
+              href="https://github.com/josuaaah/Sudoku-Solver/releases/tag/v1.0"
+              variant="outline-dark"
+              target="_blank">
+              Download
+            </Button>
           </ProjectItem>
         </Col>
-
+  
         <Col className="m-3">
           <ProjectItem project={bibleFamilyTree}>
             <Button

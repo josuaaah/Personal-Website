@@ -10,7 +10,7 @@ const Layout = ({ pageTitle, children }) => {
       <div className={bodyContainer}>
         <title>{pageTitle}</title>
         <main>
-          <h1 class="display-4 text-center m-3">{pageTitle}</h1>
+          <h1 class="display-5 text-center mt-5 mb-3">{pageTitle}</h1>
           {children}
         </main>
       </div>

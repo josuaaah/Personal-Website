@@ -1,10 +1,7 @@
 import * as React from 'react'
 
-import Col from 'react-bootstrap/Col'
-import Image from 'react-bootstrap/Image'
 import Layout from '../components/layout'
 import MstfLogo from '../images/mstf.png'
-import Row from 'react-bootstrap/Row'
 import WorkItem from '../components/workItem'
 import firstInternLogo from '../images/3e_accounting.png'
 
@@ -34,20 +31,9 @@ const WorkPage = () => {
   return (
     <Layout pageTitle="Work Experience">
       <h4>Software Engineering</h4>
-      <WorkItem
-        logo={firstIntern.logo}
-        title={firstIntern.title}
-        subtitle={firstIntern.subtitle}
-        description={firstIntern.description}
-      ></WorkItem>
-
+      <WorkItem work={firstIntern} ></WorkItem>
       <h4>National Service</h4>
-      <WorkItem
-        logo={mstf.logo}
-        title={mstf.title}
-        subtitle={mstf.subtitle}
-        description={mstf.description}
-      ></WorkItem>
+      <WorkItem work={mstf} ></WorkItem>
     </Layout>
   )
 }

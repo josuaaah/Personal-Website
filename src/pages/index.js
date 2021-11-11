@@ -1,8 +1,10 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import * as React from 'react'
 
-import Layout from '../components/layout'
-import MyPhoto from "../images/joshua.png"
-import ReactRoundedImage from "react-rounded-image";
+import Layout from '../components/layout';
+import MyPhoto from '../images/joshua.png'
+import ReactRoundedImage from 'react-rounded-image';
 
 const IndexPage = () => {
   return (

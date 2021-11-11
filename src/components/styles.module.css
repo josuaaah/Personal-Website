@@ -1,6 +1,6 @@
 .container {
   margin: auto;
-  max-width: 500px;
+  max-width: 70rem;
   font-family: sans-serif;
 }
 
@@ -8,16 +8,3 @@
   color: rebeccapurple;
 }
 
-.nav-links {
-  display: flex;
-  list-style: none;
-  padding-left: 0;
-}
-
-.nav-link-item {
-  padding-right: 2rem;
-}
-
-.nav-link-text {
-  color: black;
-}

@@ -1,18 +1,16 @@
 import * as React from 'react'
 
-import { container, heading } from './styles.module.css'
-
 import Navigation from './navigation'
+import { bodyContainer } from './styles.module.css'
 
 const Layout = ({ pageTitle, children }) => {
   return (
     <>
-      <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'></link>
       <Navigation />
-      <div className={container}>
+      <div className={bodyContainer}>
         <title>{pageTitle}</title>
         <main>
-          <h1 className={heading}>{pageTitle}</h1>
+          <h1 class="display-4 text-center m-3">{pageTitle}</h1>
           {children}
         </main>
       </div>

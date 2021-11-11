@@ -1,4 +1,4 @@
-.container {
+.body-container {
   margin: auto;
   max-width: 60rem;
   font-family: sans-serif;
@@ -6,8 +6,4 @@
 
 .heading {
   color: rebeccapurple;
-}
-
-* {
-  font-family: 'Roboto'
 }

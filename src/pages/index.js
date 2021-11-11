@@ -14,7 +14,7 @@ const IndexPage = () => {
         <ReactRoundedImage image={ MyPhoto } />
       </Container>
       <h1 class="display-1 text-center">
-        Hello. I am Josuaaah.
+        Hello. I am Joshua Chew.
       </h1>
       <Container className="p-3">
         <p class="lead">

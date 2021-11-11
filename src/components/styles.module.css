@@ -1,6 +1,6 @@
 .container {
   margin: auto;
-  max-width: 70rem;
+  max-width: 60rem;
   font-family: sans-serif;
 }
 
@@ -8,3 +8,6 @@
   color: rebeccapurple;
 }
 
+* {
+  font-family: 'Roboto'
+}

@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card'
 
 const ProjectItem = ({ project, children }) => {
   return (
-    <Card style={{ width: '20rem' }}>
+    <Card className="shadow-sm" style={{ width: '20rem' }}>
       <Card.Img variant="top" src={project.image} />
       <Card.Body>
         <h5><strong>{project.title}</strong></h5>

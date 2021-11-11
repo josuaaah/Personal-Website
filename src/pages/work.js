@@ -20,7 +20,7 @@ const firstIntern = {
 const mstf = {
   logo: MstfLogo,
   title: "Intelligence Research Assistant",
-  subtitle: "National Maritime Sense-Making Group (NMSG), Apr 2017 - Dec 2019",
+  subtitle: "Apr 2017 - Dec 2019, Singapore",
   description: 
   "At the National Maritime Sense-Making Group (NMSG), \
   I maintained large data archives with Microsoft Excel and operate maritime data analysis \

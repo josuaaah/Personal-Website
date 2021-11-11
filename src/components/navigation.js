@@ -18,7 +18,13 @@ const Navigation = () => {
           <Link to="/projects" className={navLinkText}>Projects</Link>
         </li>
         <li className={navLinkItem}>
-          <Link to="/books" className={navLinkText}>Bookworm</Link>
+          <Link to="/school" className={navLinkText}>School</Link>
+        </li>
+        <li className={navLinkItem}>
+          <Link to="/books" className={navLinkText}>Books</Link>
+        </li>
+        <li className={navLinkItem}>
+          <Link to="/music" className={navLinkText}>Music</Link>
         </li>
       </ul>
     </nav>

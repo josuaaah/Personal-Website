@@ -10,7 +10,8 @@ const firstIntern = {
   title: "Intern (Software Developer)",
   subtitle: "May 2021 - Jul 2021, Singapore",
   description: 
-  "I contributed to the full-stack development of a Human Resource Management System (HRMS), \
+  "At 3E Accounting Pte. Ltd., \
+  I contributed to the full-stack development of a Human Resource Management System (HRMS), \
   using web development  technologies like AngularJS, Django and MySQL. After improving the \
   visual display of notifications and uploaded attachments, I developed a new module to let \
   employees digitally clock their work timings.",
@@ -19,9 +20,10 @@ const firstIntern = {
 const mstf = {
   logo: MstfLogo,
   title: "Intelligence Research Assistant",
-  subtitle: "Apr 2017 - Dec 2019, Singapore",
+  subtitle: "National Maritime Sense-Making Group (NMSG), Apr 2017 - Dec 2019",
   description: 
-  "I maintained large data archives with Microsoft Excel and operate maritime data analysis \
+  "At the National Maritime Sense-Making Group (NMSG), \
+  I maintained large data archives with Microsoft Excel and operate maritime data analysis \
   software on a daily basis. Using the findings of unsupervised machine learning software, \
   I conducted open-source research on various global news developments, and assisted in the \
   writing of reports on maritime happenings.",

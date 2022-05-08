@@ -21,6 +21,7 @@ const Layout = ({ pageTitle, children }) => {
           <SocialIcon className="m-2" target="_blank" url="https://github.com/josuaaah" />
           <SocialIcon className="m-2" target="_blank" url="https://www.linkedin.com/in/joshua-chew-jx" />
           <SocialIcon className="m-2" target="_blank" url="https://www.youtube.com/JoshuaChewJosuaaah" />
+          <SocialIcon className="m-2" target="_blank" url="https://josuaaah.medium.com/" />
         </Container>
       </footer>
     </>

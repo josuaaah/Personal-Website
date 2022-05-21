@@ -9,9 +9,9 @@ import { projects } from '../data/projectData'
 const ProjectPage = () => {
   return (
     <Layout pageTitle="Projects">
-      <Row>
+      <Row className="justify-content-center">
         {projects.map(project =>
-          <Col className="m-1">
+          <Col className="m-2 d-flex justify-content-center">
             <ProjectItem project={project}>
             </ProjectItem>
           </Col>)}

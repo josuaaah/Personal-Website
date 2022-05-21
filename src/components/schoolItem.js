@@ -8,7 +8,7 @@ const SchoolItem = ({ module, children }) => {
     <Card className="shadow-sm m-3 p-3">
         <h5><strong>{module.title}</strong></h5>
         <p>{module.description}</p>
-        <Container>{children}</Container>
+        <Container className="p-0">{children}</Container>
     </Card>
   )
 }

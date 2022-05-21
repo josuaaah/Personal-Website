@@ -8,7 +8,7 @@ const WorkItem = ({ work, children }) => {
   return (
     <Row className="m-3">
         <Col md="2">
-          <Image src={work.logo} width="100%" roundedCircle></Image>
+          <Image src={work.logo} width="100%" thumbnail></Image>
         </Col>
         <Col md="10">
           <h5><strong>{work.title}</strong></h5>

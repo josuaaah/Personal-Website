@@ -8,8 +8,8 @@ const Navigation = () => {
   return (
     <Navbar className="navbar navbar-dark bg-dark">
       <Container>
-        <Nav>
-          <a class="navbar-brand" href="/">Josuaaah</a>
+        <Navbar.Brand href="/" className="pe-3"><b>Joshua Chew Jian Xiang</b></Navbar.Brand>
+        <Nav className="justify-content-end">
           <Nav.Link href="/work">Work</Nav.Link>
           <Nav.Link href="/projects">Projects</Nav.Link>
           <Nav.Link href="/school">School</Nav.Link>

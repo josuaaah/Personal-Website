@@ -9,7 +9,7 @@ import thirdInternLogo from '../images/hobnobai.png'
 
 const thirdIntern = {
   logo: thirdInternLogo,
-  title: "Upcoming: Software Engineer Intern",
+  title: "(Upcoming) Software Engineer Intern",
   subtitle: "Hobnob.ai, Aug 2022 - Dec 2022, Singapore",
   description: 
   "Hobnob.ai is a startup that provides a website for the scheduling of intra-company networking sessions. \
@@ -19,7 +19,7 @@ const thirdIntern = {
 
 const secondIntern = {
   logo: secondInternLogo,
-  title: "Upcoming: Frontend Developer for UI/UX",
+  title: "Frontend Developer Intern",
   subtitle: "WaveScan Technologies Pte. Ltd., May 2022 - Jul 2022, Singapore",
   description: 
   "WaveScan, an A*STAR spin-off company, specializes in the R&D of smart sensor systems using advanced AI. \

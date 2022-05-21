@@ -22,7 +22,7 @@ const ProjectItem = ({ project }) => {
         <p>{project.description}</p>
         {myButtons}
       </Card.Body>
-  </Card>
+    </Card>
   )
 }
 

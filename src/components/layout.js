@@ -8,6 +8,8 @@ const Layout = ({ pageTitle, children }) => {
   return (
     <>
       <Navigation />
+      <br></br>
+      <br></br>
       <div className={bodyContainer}>
         <title>{pageTitle}</title>
         <main>

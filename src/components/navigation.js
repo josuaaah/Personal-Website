@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar'
 
 const Navigation = () => {
   return (
-    <Navbar className="navbar navbar-dark bg-dark">
+    <Navbar className="navbar navbar-dark bg-dark" fixed="top">
       <Container>
         <Navbar.Brand href="/" className="pe-3"><b>Joshua Chew Jian Xiang</b></Navbar.Brand>
         <Nav className="justify-content-end">

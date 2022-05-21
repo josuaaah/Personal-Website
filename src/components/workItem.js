@@ -3,20 +3,39 @@ import * as React from 'react'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
 import Row from 'react-bootstrap/Row'
+import TimelineConnector from '@mui/lab/TimelineConnector';
+import TimelineContent from '@mui/lab/TimelineContent';
+import TimelineDot from '@mui/lab/TimelineDot';
+import TimelineItem from '@mui/lab/TimelineItem';
+import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
+import TimelineSeparator from '@mui/lab/TimelineSeparator';
 
-const WorkItem = ({ work, children }) => {
+const WorkItem = ({ work }) => {
   return (
-    <Row className="m-3">
-        <Col md="2">
-          <Image src={work.logo} width="100%" thumbnail></Image>
-        </Col>
-        <Col md="10">
-          <h5><strong>{work.title}</strong></h5>
-          <h6><em>{work.subtitle}</em></h6>
-          <p>{work.description}</p>
-          {children}
-        </Col>
-    </Row>
+    <TimelineItem>
+      <TimelineOppositeContent style={{ flex: 0.1 }} sx={{ m: 'auto 0' }} variant="body2" color="text.secondary">
+        {work.period}
+      </TimelineOppositeContent>
+      
+      <TimelineSeparator>
+        <TimelineConnector />
+        <TimelineDot></TimelineDot>
+        <TimelineConnector />
+      </TimelineSeparator>
+      
+      <TimelineContent sx={{ py: '12px', px: 2 }}>
+        <Row className="m-1">
+          <Col md="2">
+            <Image src={work.logo} width="120px" className="mr-3 mb-3" thumbnail></Image>
+          </Col>
+          <Col md="10">
+            <h5><strong>{work.position}</strong></h5>
+            <h6>{work.company}</h6>
+            <p>{work.description}</p>
+          </Col>
+        </Row>
+      </TimelineContent>  
+    </TimelineItem>
   )
 }
 

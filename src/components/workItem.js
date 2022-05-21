@@ -26,7 +26,7 @@ const WorkItem = ({ work }) => {
       <TimelineContent sx={{ py: '12px', px: 2 }}>
         <Row className="m-1">
           <Col md="2">
-            <Image src={work.logo} width="100%" rounded></Image>
+            <Image src={work.logo} width="120px" className="mr-3 mb-3" thumbnail></Image>
           </Col>
           <Col md="10">
             <h5><strong>{work.position}</strong></h5>

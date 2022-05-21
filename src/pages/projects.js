@@ -12,25 +12,57 @@ import TheTowerImage from '../images/the_tower.png'
 const theTower = {
   image: TheTowerImage,
   title: "The Tower",
-  description: "A 2D platformer game implemented on Python using Pygame where \
-  players can control a character to dodge obstacles and defeat enemies. This \
-  game attained the intermediate level of achievement (Project Gemini) for NUS' \
-  Orbital Programme.",
+  description: 
+  `A 2D platformer game implemented on Python using Pygame where players can 
+  control a character to dodge obstacles and defeat enemies. This game attained 
+  the intermediate level of achievement (Project Gemini) for NUS' Orbital Programme.`,
+  buttons: [
+    {
+      name: "Demo",
+      url: "https://www.youtube.com/watch?v=YXRmgBIPeyA",
+    },
+    {
+      name: "Repo",
+      url: "https://github.com/josuaaah/The-Tower",
+    },
+    {
+      name: "Download",
+      url: "https://github.com/josuaaah/Sudoku-Solver/releases/tag/v1.0",
+    },
+  ],
 }
 
 const sudokuSolver = {
   image: SudokuSolverImage,
   title: "Sudoku Solver",
-  description: "A Desktop application made with a Tkinter GUI and an AI backtracking algorithm. \
-  Users can key in any Sudoku puzzle and will receive a solution instantly. \
-  Invalid puzzle inputs are detected, and errors are highlighted to the user.",
+  description: 
+  `A Desktop application made with a Tkinter GUI and an AI backtracking algorithm. 
+  Users can key in any Sudoku puzzle and will receive a solution instantly. 
+  Invalid puzzle inputs are detected, and errors are highlighted to the user.`,
+  buttons: [
+    {
+      name: "Repo",
+      url: "https://github.com/josuaaah/Sudoku-Solver",
+    },
+    {
+      name: "Download",
+      url: "https://github.com/josuaaah/Sudoku-Solver/releases/tag/v1.0",
+    },
+  ],
 }
 
 const bibleFamilyTree = {
   image: BibleFamilyTreeImage,
   title: "Bible Family Tree",
-  description: "A family tree of the entire Old Testament using PlantUML's class diagram feature, \
-  an open-source dataset and a Python script.",
+  description:
+  `A family tree of the entire Old Testament using PlantUML's class diagram feature, 
+  an open-source dataset and a Python script.`,
+  buttons: [
+    {
+      name: "Repo",
+      url: "https://github.com/josuaaah/Bible-Family-Tree",
+    },
+  ],
 }
 
 const ProjectPage = () => {
@@ -39,54 +71,16 @@ const ProjectPage = () => {
       <Row>
         <Col className="m-3">
           <ProjectItem project={theTower}>
-            <Button 
-              href="https://www.youtube.com/watch?v=YXRmgBIPeyA" 
-              variant="outline-dark" 
-              target="_blank">
-              Demo
-            </Button>
-            <Button
-              className="mx-2"
-              href="https://github.com/josuaaah/The-Tower"
-              variant="outline-dark"
-              target="_blank">
-              Repo
-            </Button>
-            <Button
-              href="https://github.com/youyingfeng/recursivesandwich/releases/tag/1.0"
-              variant="outline-dark"
-              target="_blank">
-              Download
-            </Button>
           </ProjectItem>
         </Col>
       
         <Col className="m-3">
           <ProjectItem project={sudokuSolver}>
-            <Button
-              href="https://github.com/josuaaah/Sudoku-Solver"
-              variant="outline-dark"
-              target="_blank">
-              Repo
-            </Button>
-            <Button
-              className="mx-2"
-              href="https://github.com/josuaaah/Sudoku-Solver/releases/tag/v1.0"
-              variant="outline-dark"
-              target="_blank">
-              Download
-            </Button>
           </ProjectItem>
         </Col>
   
         <Col className="m-3">
           <ProjectItem project={bibleFamilyTree}>
-            <Button
-              href="https://github.com/josuaaah/Bible-Family-Tree"
-              variant="outline-dark"
-              target="_blank">
-              Repo
-            </Button>
           </ProjectItem>
         </Col>
       </Row>

@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
 import Row from 'react-bootstrap/Row'
 
-const WorkItem = ({ work, children }) => {
+const WorkItem = ({ work }) => {
   return (
     <Row className="m-3">
         <Col md="2">
@@ -14,7 +14,6 @@ const WorkItem = ({ work, children }) => {
           <h5><strong>{work.title}</strong></h5>
           <h6><em>{work.subtitle}</em></h6>
           <p>{work.description}</p>
-          {children}
         </Col>
     </Row>
   )

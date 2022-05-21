@@ -12,9 +12,9 @@ const thirdIntern = {
   title: "(Upcoming) Software Engineer Intern",
   subtitle: "Hobnob.ai, Aug 2022 - Dec 2022, Singapore",
   description: 
-  "Hobnob.ai is a startup that provides a website for the scheduling of intra-company networking sessions. \
-   I will be taking a Leave of Absence (LoA) from NUS to work in this internship, where I will be put in \
-   charge of designing and develop its primary web application using Elm, Hasura and Postgres.",
+  `Hobnob.ai is a startup that provides a website for the scheduling of intra-company networking sessions. 
+   I will be taking a Leave of Absence (LoA) from NUS to work in this internship, where I will be put in 
+   charge of designing and develop its primary web application using Elm, Hasura and Postgres.`,
 }
 
 const secondIntern = {
@@ -22,10 +22,10 @@ const secondIntern = {
   title: "Frontend Developer Intern",
   subtitle: "WaveScan Technologies Pte. Ltd., May 2022 - Jul 2022, Singapore",
   description: 
-  "WaveScan, an A*STAR spin-off company, specializes in the R&D of smart sensor systems using advanced AI. \
-   In my upcoming Summer internship with this firm, I will develop the UI/UX for a Desktop application and  \
-   add 2D/3D data visualisation features using ReactJS. I will also occasionally fine-tune machine learning \
-   algorithms to achieve better model performance.",
+  `WaveScan, an A*STAR spin-off company, specializes in the R&D of smart sensor systems using advanced AI. 
+   In my upcoming Summer internship with this firm, I will develop the UI/UX for a Desktop application and  
+   add 2D/3D data visualisation features using ReactJS. I will also occasionally fine-tune machine learning 
+   algorithms to achieve better model performance.`,
 }
 
 const firstIntern = {
@@ -44,11 +44,11 @@ const mstf = {
   title: "Intelligence Research Assistant",
   subtitle: "Apr 2017 - Dec 2019, Singapore",
   description: 
-  "At the National Maritime Sense-Making Group (NMSG), \
-  I maintained large data archives with Microsoft Excel and operate maritime data analysis \
-  software on a daily basis. Using the findings of unsupervised machine learning software, \
-  I conducted open-source research on various global news developments, and assisted in the \
-  writing of reports on maritime happenings.",
+  `At the National Maritime Sense-Making Group (NMSG), 
+  I maintained large data archives with Microsoft Excel and operate maritime data analysis 
+  software on a daily basis. Using the findings of unsupervised machine learning software, 
+  I conducted open-source research on various global news developments, and assisted in the 
+  writing of reports on maritime happenings.`,
 }
 
 const WorkPage = () => {

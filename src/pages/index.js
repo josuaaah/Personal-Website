@@ -11,7 +11,7 @@ import ReactRoundedImage from 'react-rounded-image';
 const IndexPage = () => {
   return (
     <Layout>
-      <Container className="d-flex justify-content-center p-5">
+      <Container className="d-flex justify-content-center p-4">
         <ReactRoundedImage image={myPhoto} />
       </Container>
       <h1 class="display-1 text-center">{myDisplayText}</h1>

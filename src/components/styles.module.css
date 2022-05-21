@@ -1,5 +1,8 @@
 .body-container {
   margin: auto;
   max-width: 70rem;
-  font-family: sans-serif;
+}
+
+* {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
 }

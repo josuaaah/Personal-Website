@@ -1,5 +1,6 @@
 import * as React from 'react'
 
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
@@ -8,10 +9,17 @@ const Navigation = () => {
   return (
     <Navbar className="navbar navbar-dark bg-dark" fixed="top">
       <Container>
-        <Navbar.Brand href="/" className="pe-3"><b>Joshua Chew Jian Xiang</b></Navbar.Brand>
-        <Nav className="justify-content-end">
-          <Nav.Link href="/work">Work</Nav.Link>
-          <Nav.Link href="/projects">Projects</Nav.Link>
+        <AniLink className="navbar-brand" cover direction="up" bg="#212529" duration={0.7} to="/">
+          <b>Joshua Chew Jian Xiang</b>
+        </AniLink>
+
+        <Nav>
+          <AniLink className="nav-link" cover direction="right" bg="#212529" duration={0.7} to="/work">
+            Work
+          </AniLink>
+          <AniLink className="nav-link" cover direction="left" bg="#212529" duration={0.7} to="/projects">
+            Projects
+          </AniLink>
         </Nav>
       </Container>
     </Navbar>

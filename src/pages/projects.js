@@ -11,7 +11,7 @@ const ProjectPage = () => {
     <Layout pageTitle="Projects">
       <Row>
         {projects.map(project =>
-          <Col className="m-3">
+          <Col className="m-1">
             <ProjectItem project={project}>
             </ProjectItem>
           </Col>)}

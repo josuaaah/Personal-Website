@@ -1,6 +1,7 @@
-import { kerasIcon, numpyIcon, pandasIcon, pumlIcon, pygameIcon, pythonIcon, rubyOnRailsIcon, tensorFlowIcon, tkinterIcon } from './techData'
+import { angularJsIcon, djangoIcon, kerasIcon, numpyIcon, pandasIcon, pumlIcon, pygameIcon, pythonIcon, rubyOnRailsIcon, tensorFlowIcon, tkinterIcon } from './techData'
 
 import BibleFamilyTreeImage from '../images/bible_family_tree.png'
+import BookwormImage from '../images/bookworm.png'
 import SarcasmDetectImage from '../images/sarcasm_detect.png'
 import SudokuSolverImage from '../images/sudoku_solver.png'
 import TheTowerImage from '../images/the_tower.png'
@@ -96,4 +97,18 @@ const sarcasmDetection = {
   techs: [numpyIcon, pandasIcon, tensorFlowIcon, kerasIcon],
 }
 
-export let projects = [theTower, sudokuSolver, sarcasmDetection, bibleFamilyTree, urlClassification];
+const bookworm = {
+  image: BookwormImage,
+  title: "Bookworm",
+  description:
+  `A simple web application with authentication features to keep track of the books you are reading.`,
+  buttons: [
+    {
+      name: "Demo",
+      url: "https://www.youtube.com/watch?v=26zKux_xm1k",
+    },
+  ],
+  techs: [angularJsIcon, djangoIcon],
+}
+
+export let projects = [theTower, sudokuSolver, bibleFamilyTree, sarcasmDetection, bookworm, urlClassification];

@@ -2,6 +2,7 @@ import { angularJsIcon, djangoIcon, javaIcon, kerasIcon, numpyIcon, pandasIcon, 
 
 import BibleFamilyTreeImage from '../images/bible_family_tree.png'
 import BookwormImage from '../images/bookworm.png'
+import DukeImage from '../images/duke.png'
 import SarcasmDetectImage from '../images/sarcasm_detect.png'
 import SudokuSolverImage from '../images/sudoku_solver.png'
 import TaskmasterImage from '../images/taskmaster.png'
@@ -130,5 +131,22 @@ const taskmaster = {
   techs: [javaIcon],
 }
 
+const duke = {
+  image: DukeImage,
+  title: "Duke",
+  description:
+  `A chatbot that manages your To-dos and events efficiently with a Command-Line Interface (CLI).`,
+  buttons: [
+    {
+      name: "Repo",
+      url: "https://github.com/josuaaah/Duke",
+    },
+    {
+      name: "Download",
+      url: "https://github.com/josuaaah/Duke/releases/tag/A-Release",
+    },
+  ],
+  techs: [javaIcon],
+}
 
-export let projects = [theTower, sudokuSolver, bibleFamilyTree, sarcasmDetection, taskmaster, bookworm, urlClassification];
+export let projects = [theTower, sudokuSolver, bibleFamilyTree, sarcasmDetection, urlClassification, duke, taskmaster, bookworm];

@@ -15,7 +15,7 @@ const ProjectItem = ({ project }) => {
       </Card.Body>
       <Card.Footer>
         {project.buttons.map(button => 
-            <Button variant="outline-dark" href={button.url} style={{ marginRight: '5px' }} target="_blank">
+            <Button variant="outline-dark" href={button.url} style={{ marginRight: '7px' }} target="_blank">
               {button.name}
             </Button>)}
       </Card.Footer>

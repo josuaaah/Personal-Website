@@ -25,9 +25,9 @@ const WorkItem = ({ work }) => {
       </TimelineSeparator>
       
       <TimelineContent sx={{ py: '12px', px: 2 }}>
-        <Row className="m-1">
+        <Row className="my-1 mx-2">
           <Col md="2">
-            <Image src={work.logo} width="120px" className="mr-3 mb-3" thumbnail></Image>
+            <Image src={work.logo} width="100px" className="mr-3 mb-3 shadow-lg" roundedCircle></Image>
           </Col>
           <Col md="10">
             <h5><strong>{work.company}</strong></h5>            

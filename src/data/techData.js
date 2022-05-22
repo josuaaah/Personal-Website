@@ -2,14 +2,38 @@ import AngularJsLogo from '../images/angularjs_logo.png'
 import DjangoLogo from '../images/django_logo.png'
 import ElmLogo from '../images/elm_logo.png'
 import HasuraLogo from '../images/hasura_logo.png'
+import KerasLogo from '../images/keras_logo.png'
 import MySqlLogo from '../images/mysql_logo.png'
+import NumpyLogo from '../images/numpy_logo.png'
+import PandasLogo from '../images/pandas_logo.png'
 import PostgreSqlLogo from '../images/postgresql_logo.png'
 import PumlLogo from '../images/puml_logo.png'
 import PygameLogo from '../images/pygame_logo.png'
 import PythonLogo from '../images/python_logo.png'
 import ReactLogo from '../images/react_logo.png'
 import RubyOnRailsLogo from '../images/ruby_on_rails_logo.png'
+import TensorFlowLogo from '../images/tensorflow_logo.png'
 import VtkLogo from '../images/vtk_logo.png'
+
+export let kerasIcon = {
+  name: "Keras",
+  src: KerasLogo,
+};
+
+export let numpyIcon = {
+  name: "NumPy",
+  src: NumpyLogo,
+};
+
+export let tensorFlowIcon = {
+  name: "TensorFlow",
+  src: TensorFlowLogo,
+};
+
+export let pandasIcon = {
+  name: "Pandas",
+  src: PandasLogo,
+};
 
 export let vtkIcon = {
   name: "Visualization Tool Kit",

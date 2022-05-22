@@ -1,4 +1,4 @@
-import { pumlIcon, pygameIcon, pythonIcon, rubyOnRailsIcon, tkinterIcon } from './techData'
+import { kerasIcon, numpyIcon, pandasIcon, pumlIcon, pygameIcon, pythonIcon, rubyOnRailsIcon, tensorFlowIcon, tkinterIcon } from './techData'
 
 import BibleFamilyTreeImage from '../images/bible_family_tree.png'
 import SarcasmDetectImage from '../images/sarcasm_detect.png'
@@ -79,7 +79,7 @@ const urlClassification = {
       url: "https://github.com/josuaaah/URL-Classification",
     },
   ],
-  techs: [],
+  techs: [numpyIcon, pandasIcon, tensorFlowIcon, kerasIcon],
 }
 
 const sarcasmDetection = {
@@ -93,7 +93,7 @@ const sarcasmDetection = {
       url: "https://github.com/josuaaah/Personal-Website/blob/main/src/static/Sarcasm_Detection_Slides.pdf",
     },
   ],
-  techs: [],
+  techs: [numpyIcon, pandasIcon, tensorFlowIcon, kerasIcon],
 }
 
 export let projects = [theTower, sudokuSolver, sarcasmDetection, bibleFamilyTree, urlClassification];

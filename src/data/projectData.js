@@ -21,6 +21,7 @@ const theTower = {
       url: "https://github.com/josuaaah/Sudoku-Solver/releases/tag/v1.0",
     },
   ],
+  techs: [],
 }
 
 const sudokuSolver = {
@@ -38,6 +39,12 @@ const sudokuSolver = {
       url: "https://github.com/josuaaah/Sudoku-Solver/releases/tag/v1.0",
     },
   ],
+  techs: [
+    {
+      name: "React",
+      icon: "react",
+    }
+  ],
 }
 
 const bibleFamilyTree = {
@@ -51,6 +58,7 @@ const bibleFamilyTree = {
       url: "https://github.com/josuaaah/Bible-Family-Tree",
     },
   ],
+  techs: [],
 }
 
 export let projects = [theTower, sudokuSolver, bibleFamilyTree];

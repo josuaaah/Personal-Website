@@ -2,14 +2,16 @@ import * as React from 'react'
 
 import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
+import TechStack from './techStack'
 
 const ProjectItem = ({ project }) => {
   return (
     <Card className="shadow-lg" style={{ height: '28rem', width: '20rem'}}>
-      <Card.Img src={project.image} />
+      <Card.Img src={project.image} style={{ height: '14rem', objectFit: 'cover' }} />
       <Card.Body>
         <h5><strong>{project.title}</strong></h5>
         <div>{project.description}</div>
+        <TechStack techs={project.techs}></TechStack>
       </Card.Body>
       <Card.Footer>
         {project.buttons.map(button => 

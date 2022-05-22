@@ -2,7 +2,7 @@ import * as React from 'react'
 
 import Navigation from './navigation'
 import Socials from './socials'
-import { bodyContainer } from './styles.module.css'
+import { bodyContainer } from '../fonts/styles.module.css'
 
 const Layout = ({ pageTitle, children }) => {
   return (

@@ -5,9 +5,9 @@ const TechStack = ({ techs }) => {
     return (<></>);
   }
   return (
-    <div className="mt-2">
+    <div className="my-2">
       {techs.map(tech => 
-        <img  width="25px" height="25px" style={{ marginRight: "10px" }} src={tech.src} ></img>
+        <img width="25px" height="25px" style={{ marginRight: "10px" }} src={tech.src} ></img>
       )}
     </div>
   )

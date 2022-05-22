@@ -1,8 +1,10 @@
 import { pumlIcon, pygameIcon, pythonIcon, rubyOnRailsIcon, tkinterIcon } from './techData'
 
 import BibleFamilyTreeImage from '../images/bible_family_tree.png'
+import SarcasmDetectImage from '../images/sarcasm_detect.png'
 import SudokuSolverImage from '../images/sudoku_solver.png'
 import TheTowerImage from '../images/the_tower.png'
+import UrlRnnImage from '../images/url_rnn.png'
 
 const theTower = {
   image: TheTowerImage,
@@ -58,4 +60,40 @@ const bibleFamilyTree = {
   techs: [pythonIcon, pumlIcon],
 }
 
-export let projects = [theTower, sudokuSolver, bibleFamilyTree];
+const urlClassification = {
+  image: UrlRnnImage,
+  title: "URL Classification",
+  description:
+  `Detection of websites that are unsafe for children from their URLs through Natural Language Processing.`,
+  buttons: [
+    {
+      name: "Poster",
+      url: "https://github.com/josuaaah/URL-Classification/blob/main/deliverables/Group11_Project_Poster.pdf",
+    },
+    {
+      name: "Report",
+      url: "https://github.com/josuaaah/URL-Classification/blob/main/deliverables/Project%20Final%20Report.pdf",
+    },
+    {
+      name: "Repo",
+      url: "https://github.com/josuaaah/URL-Classification",
+    },
+  ],
+  techs: [],
+}
+
+const sarcasmDetection = {
+  image: SarcasmDetectImage,
+  title: "Reddit Sarcasm Detection",
+  description:
+  `Explainable detection of sarcastic comments through various Machine Learning algorithms.`,
+  buttons: [
+    {
+      name: "Slides",
+      url: "",
+    },
+  ],
+  techs: [],
+}
+
+export let projects = [theTower, sudokuSolver, sarcasmDetection, bibleFamilyTree, urlClassification];

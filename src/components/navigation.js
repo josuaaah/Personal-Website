@@ -15,7 +15,7 @@ const Navigation = () => {
 
         <Nav>
           <AniLink className="nav-link" cover direction="right" bg="#212529" duration={0.7} to="/work">
-            Work
+            Experience
           </AniLink>
           <AniLink className="nav-link" cover direction="left" bg="#212529" duration={0.7} to="/projects">
             Projects

@@ -1,9 +1,10 @@
-import { angularJsIcon, djangoIcon, kerasIcon, numpyIcon, pandasIcon, pumlIcon, pygameIcon, pythonIcon, rubyOnRailsIcon, tensorFlowIcon, tkinterIcon } from './techData'
+import { angularJsIcon, djangoIcon, javaIcon, kerasIcon, numpyIcon, pandasIcon, pumlIcon, pygameIcon, pythonIcon, rubyOnRailsIcon, tensorFlowIcon, tkinterIcon } from './techData'
 
 import BibleFamilyTreeImage from '../images/bible_family_tree.png'
 import BookwormImage from '../images/bookworm.png'
 import SarcasmDetectImage from '../images/sarcasm_detect.png'
 import SudokuSolverImage from '../images/sudoku_solver.png'
+import TaskmasterImage from '../images/taskmaster.png'
 import TheTowerImage from '../images/the_tower.png'
 import UrlRnnImage from '../images/url_rnn.png'
 
@@ -111,4 +112,23 @@ const bookworm = {
   techs: [angularJsIcon, djangoIcon],
 }
 
-export let projects = [theTower, sudokuSolver, bibleFamilyTree, sarcasmDetection, bookworm, urlClassification];
+const taskmaster = {
+  image: TaskmasterImage,
+  title: "TAskmaster",
+  description:
+  `A Desktop application with a CLI that lets Teaching Assistants (TAs) manage their students and sessions.`,
+  buttons: [
+    {
+      name: "Repo",
+      url: "https://github.com/josuaaah/TAskmaster",
+    },
+    {
+      name: "Download",
+      url: "https://github.com/josuaaah/TAskmaster/releases/tag/v1.4",
+    },
+  ],
+  techs: [javaIcon],
+}
+
+
+export let projects = [theTower, sudokuSolver, bibleFamilyTree, sarcasmDetection, taskmaster, bookworm, urlClassification];

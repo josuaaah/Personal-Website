@@ -2,6 +2,7 @@ import AngularJsLogo from '../images/angularjs_logo.png'
 import DjangoLogo from '../images/django_logo.png'
 import ElmLogo from '../images/elm_logo.png'
 import HasuraLogo from '../images/hasura_logo.png'
+import JavaLogo from '../images/java_logo.png'
 import KerasLogo from '../images/keras_logo.png'
 import MySqlLogo from '../images/mysql_logo.png'
 import NumpyLogo from '../images/numpy_logo.png'
@@ -14,6 +15,11 @@ import ReactLogo from '../images/react_logo.png'
 import RubyOnRailsLogo from '../images/ruby_on_rails_logo.png'
 import TensorFlowLogo from '../images/tensorflow_logo.png'
 import VtkLogo from '../images/vtk_logo.png'
+
+export let javaIcon = {
+  name: "Java",
+  src: JavaLogo,
+};
 
 export let kerasIcon = {
   name: "Keras",

@@ -6,9 +6,7 @@ const theTower = {
   image: TheTowerImage,
   title: "The Tower",
   description: 
-  `A 2D platformer game implemented on Python using Pygame where players can 
-  control a character to dodge obstacles and defeat enemies. This game attained 
-  the intermediate level of achievement (Project Gemini) for NUS' Orbital Programme.`,
+  `A 2D platformer game where players can control a character to dodge obstacles and defeat enemies.`,
   buttons: [
     {
       name: "Demo",
@@ -29,9 +27,7 @@ const sudokuSolver = {
   image: SudokuSolverImage,
   title: "Sudoku Solver",
   description: 
-  `A Desktop application made with a Tkinter GUI and an AI backtracking algorithm. 
-  Users can key in any Sudoku puzzle and will receive a solution instantly. 
-  Invalid puzzle inputs are detected, and errors are highlighted to the user.`,
+  `A Desktop application where users can key in any Sudoku puzzle and will receive a solution instantly.`,
   buttons: [
     {
       name: "Repo",
@@ -48,8 +44,7 @@ const bibleFamilyTree = {
   image: BibleFamilyTreeImage,
   title: "Bible Family Tree",
   description:
-  `A family tree of the entire Old Testament using PlantUML's class diagram feature, 
-  an open-source dataset and a Python script.`,
+  `A family tree of (almost) all the people mentioned in the Old Testament of the Bible.`,
   buttons: [
     {
       name: "Repo",

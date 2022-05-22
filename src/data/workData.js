@@ -11,7 +11,7 @@ const thirdIntern = {
   description: 
   `This company is a startup that provides a website for the scheduling of intra-company networking sessions. 
    I will be taking a Leave of Absence (LoA) from NUS to work in this internship, where I will be put in 
-   charge of designing and develop its primary web application using Elm, Hasura and Postgres.`,
+   charge of designing and developing its primary web application using Elm, Hasura and Postgres.`,
 }
 
 const secondIntern = {

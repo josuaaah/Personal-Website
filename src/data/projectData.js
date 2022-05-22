@@ -90,7 +90,7 @@ const sarcasmDetection = {
   buttons: [
     {
       name: "Slides",
-      url: "",
+      url: "https://github.com/josuaaah/Personal-Website/blob/main/src/static/Sarcasm_Detection_Slides.pdf",
     },
   ],
   techs: [],

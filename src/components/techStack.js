@@ -1,15 +1,14 @@
 import * as React from 'react'
 
+import Image from 'react-bootstrap/Image'
+
 const TechStack = ({ techs }) => {
   if (techs.length === 0) {
     return (<></>);
   }
   return (
-    <div className="mt-3">
-      {techs.map(tech => 
-      <svg width="40" height="40" viewBox="0 0 180 180">
-        {tech.svg}
-      </svg>)}
+    <div className="mt-2">
+      {techs.map(tech => <Image width="35px" height="35px" src={tech.src} ></Image>)}
     </div>
   )
 }

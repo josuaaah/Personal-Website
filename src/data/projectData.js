@@ -1,11 +1,8 @@
+import { pumlIcon, pygameIcon, pythonIcon, rubyOnRailsIcon, tkinterIcon } from './techData'
+
 import BibleFamilyTreeImage from '../images/bible_family_tree.png'
 import SudokuSolverImage from '../images/sudoku_solver.png'
 import TheTowerImage from '../images/the_tower.png'
-
-const tkinterIcon = {
-  name: "tkinter",
-  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-};
 
 const theTower = {
   image: TheTowerImage,
@@ -26,7 +23,7 @@ const theTower = {
       url: "https://github.com/josuaaah/Sudoku-Solver/releases/tag/v1.0",
     },
   ],
-  techs: [],
+  techs: [pythonIcon, pygameIcon, rubyOnRailsIcon],
 }
 
 const sudokuSolver = {
@@ -58,7 +55,7 @@ const bibleFamilyTree = {
       url: "https://github.com/josuaaah/Bible-Family-Tree",
     },
   ],
-  techs: [],
+  techs: [pythonIcon, pumlIcon],
 }
 
 export let projects = [theTower, sudokuSolver, bibleFamilyTree];

@@ -3,7 +3,7 @@ import MyPhoto from '../images/joshua.png'
 const displayText = `Hello. I am Joshua Chew.`;
 
 const descriptionText = `
-  I am a third-year Computer Science student at the National University of Singapore.
+  I am a final year Computer Science student at the National University of Singapore.
   I specialize in Artificial Intelligence, am pursuing a Second Major in Statistics, 
   and am also part of the University Scholar's Programme (USP). A perk of having me 
   as a software developer: I write very, very, very clean code. Outside of Computing, 

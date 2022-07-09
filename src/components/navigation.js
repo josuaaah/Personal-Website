@@ -14,10 +14,10 @@ const Navigation = () => {
         </AniLink>
 
         <Nav>
-          <AniLink className="nav-link" cover direction="right" bg="#212529" duration={0.7} to="/work">
+          <AniLink className="nav-link text-light mx-1" cover direction="right" bg="#212529" duration={0.7} to="/work">
             Experience
           </AniLink>
-          <AniLink className="nav-link" cover direction="left" bg="#212529" duration={0.7} to="/projects">
+          <AniLink className="nav-link text-light mx-1" cover direction="left" bg="#212529" duration={0.7} to="/projects">
             Projects
           </AniLink>
         </Nav>

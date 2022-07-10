@@ -1,8 +1,8 @@
-import * as React from 'react'
+import * as React from "react";
 
-import Navigation from './navigation'
-import Socials from './socials'
-import { bodyContainer } from '../fonts/styles.module.css'
+import Navigation from "./navigation";
+import Socials from "./socials";
+import { bodyContainer } from "../fonts/styles.module.css";
 
 const Layout = ({ pageTitle, children }) => {
   return (
@@ -12,15 +12,11 @@ const Layout = ({ pageTitle, children }) => {
       <br></br>
       <br></br>
       <div className={bodyContainer}>
-        <main>
-          {children}
-        </main>
+        <main>{children}</main>
       </div>
-      <footer style={{bottom: 0}}>
-        <Socials />
-      </footer>
+      <Socials />
     </>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;
